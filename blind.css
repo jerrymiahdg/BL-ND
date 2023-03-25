@@ -6,6 +6,7 @@
 
 body {
     font-family: 'Staatliches', cursive;
+    background-color: black;
 }
 
 header {
@@ -33,12 +34,12 @@ header {
 
 .title {
     float: left;
-    width: 50%;
+    width: 25%;
 }
 
 .navigation {
     float: left;
-    width: 50%
+    width: 75%
 }
 
 .nav-btn:hover {
@@ -47,7 +48,7 @@ header {
 
 .nav-div {
     float: left;
-    width: 33.33%;
+    width: 25%;
 }
 
 .background {
@@ -71,13 +72,14 @@ header {
 .home {
     position: relative;
     display: block;
+    background-color: white;
 }
 
 .our-mission {
     display: none;
 }
 
-.try {
+.check-btn {
     border-style: none;
     background-color: rgb(226, 67, 67);
     color: white;
@@ -88,7 +90,7 @@ header {
     font-family: inherit;
 }
 
-.try:hover {
+.check-btn:hover {
     background-color: rgb(236, 72, 72);
 }
 
@@ -116,4 +118,17 @@ header {
 
 #works-cited-body {
     text-align: center;
+}
+
+.our-work {
+    display: none;
+}
+
+.work-img {
+    width: 75%;
+    border-radius: 25px;
+    margin: 50px;
+    border-width: 15px;
+    border-style: solid;
+    border-color: rgb(41, 41, 41);
 }
